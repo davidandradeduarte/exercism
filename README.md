@@ -1,6 +1,6 @@
 # Exercism Tracks
 
-- [] chsarp
-- [] go
-- [] rust
-- [] python
+- [ ] chsarp
+- [ ] go
+- [ ] rust
+- [ ] python
