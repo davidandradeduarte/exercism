@@ -1,4 +1,4 @@
- # Notes
+# Notes
 
 `type inference` letting the compiler infer its type based on the assigned value
 
