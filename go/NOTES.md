@@ -1,6 +1,6 @@
 # Notes
 
-Statically typed.
+Statically typed. Garbage collection. Single binary. Cross-platform. Amazing standard library with built-in testing, concurrency, http server, etc. Very fast compilation and execution speed. Standard code formatting and documentation. Simple and consistent.
 
 ## Variables
 
