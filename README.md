@@ -6,3 +6,4 @@ Currently doing:
 
 - [csharp](csharp/)
 - [go](go/)
+- [rust](rust/)
