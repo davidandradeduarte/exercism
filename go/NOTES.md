@@ -34,3 +34,7 @@ can return multiple values
 var i int = 10
 var f float64 = float64(i)
 ```
+
+## channels
+
+An unbuffered channel blocks on send until a receiver is ready to read
