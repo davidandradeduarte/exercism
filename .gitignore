@@ -1,6 +1,9 @@
 # Exercism
 .exercism/
 
+# C++ test files are huge, so we only include the source files
+cpp/*/test
+
 *.swp
 *.*~
 project.lock.json
