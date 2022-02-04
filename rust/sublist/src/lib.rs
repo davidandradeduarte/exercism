@@ -15,14 +15,10 @@ pub fn sublist<T: PartialEq>(_first_list: &[T], _second_list: &[T]) -> Compariso
         return Comparison::Equal;
     }
 
-    if _first_list.len() < _second_list.len() {
-        if find_window(_first_list, _second_list){
-            return Comparison::Sublist;
-        }
-    } else {
-        if find_window(_second_list, _first_list) {
-            return Comparison::Superlist;
-        }
+    if _first_list.len() < _second_list.len() && find_window(_first_list, _second_list){
+        return Comparison::Sublist;
+    } else if find_window(_second_list, _first_list) {
+        return Comparison::Superlist;
     }
 
     Comparison::Unequal
